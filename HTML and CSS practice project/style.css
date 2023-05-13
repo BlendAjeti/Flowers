@@ -1,0 +1,184 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+header{
+    background-color: aliceblue;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    
+}
+
+.list{
+    
+    list-style: none;
+    display: flex;
+}
+
+.list li{
+    display: inline;
+    padding: 0px 15px;
+    
+}
+.list li a {
+    text-decoration: none;
+}
+.list li a:hover{
+    transition: all 0.3s ease-in 0.4s;
+    color: red;
+}
+
+.logo{
+    font-family: "Lobster",sans-serif;
+    font-size: 30px;
+    
+}
+
+main{
+    margin: 60px;
+    padding: 50px;
+}
+main h1{
+    margin-left: 40px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background:rgb(207, 200, 200);
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+.card-image{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+.achillea{
+    background-image:url('/Assets/Achillea-Desert-Eve-Deep-Rose.jpg') ;
+}
+
+.daisy{
+    background-image: url(/Assets/African-Daisy.jpg);
+}
+
+.lily{
+    background-image: url('/Assets/African-Lily.jpg');
+}
+.marigold{
+    background-image: url('/Assets/African-Marigold.jpg');
+}
+.violet{
+    background-image: url('/Assets/African-Violet.jpg');
+}
+.alpenrose{
+    background-image: url('/Assets/Alpenrose.jpg');
+}
+.amaryllis{
+    background-image: url('/Assets/Amaryllis.jpg');
+}
+.lotus{
+    background-image: url('/Assets/American-Lotus.jpg');
+}
+.wisteria{
+    background-image:url('/Assets/American-Wisteria.jpg') ;
+}
+
+
+.text{
+    margin: 10px;
+}
+
+section{
+    background-image: url(/Assets/background\ imagee.jpg);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titan{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+.dangerous{
+    margin: 20px;
+    padding: 30px;
+}
+.dangerous h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    
+}
+.arum{
+    display: flex;
+    justify-content: end;
+} 
+.titan .arum{
+    display: inline-block;
+    width: 800px;
+    padding-left: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  .footer-bottom {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+.section2{
+    background-image: url('/Assets/backgggg.jpg');
+}
+
+.prettiest{
+    margin: 20px;
+    padding: 30px;
+}
+.prettiest h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.rose {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rose .arum{
+    display: inline-block;
+    width: 800px;
+    padding-left: 50px;
+}
+.clear{
+    display: flex;
+    justify-content: left;
+    padding-right: px;
+}
+.clear1{
+    padding-right: 30px;
+}
